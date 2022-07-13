@@ -1,0 +1,70 @@
+.principal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.384);
+    z-index: 11;
+}
+
+.payment {
+    width: 500px;
+    height: 180px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 200px auto;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    padding: 10px;
+}
+
+.div_just{
+    display: flex;
+    flex-direction: column; 
+}
+
+.div_just textarea{
+    outline: none;
+    margin-top: 10px;
+}
+
+.div_just span{
+    font-weight: bold;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.botoes button{
+    position: relative;
+        width: 100%;
+        height: 20px;
+        width: 100px;
+        background-color: #FF0000;
+        border: none;
+        color: #fff;
+        font-size: 15px; 
+}
+
+.botoes button:hover{
+    background-color: #d30202;
+}
+
+.botoes button:active {
+    background-color: #9e1401;
+    color: #000;
+}

@@ -1,0 +1,236 @@
+.principal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.384);
+    z-index: 11;
+}
+
+.payment {
+    width: 1130px;
+    height: 700px;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 60px auto;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+canvas {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.close:hover {
+    font-size: larger;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #F5F3F3;
+}
+
+.title_form {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.esquerda {
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.direita {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.id_status {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    margin-top: 16px;
+    margin-left: 5px;
+    transition: ease-out 0.3s;
+}
+
+.id {
+    font-size: 25px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    color: #383838;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.id_status div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    height: 30px;
+    border-radius: 20px;
+    border: 3px solid #959595;
+    display: flex;
+    align-items: center;
+    color: #383838;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.data {
+    height: 30px;
+    border-radius: 20px;
+    border: 3px solid #959595;
+    display: flex;
+    align-items: center;
+    color: #383838;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.descricao {
+    height: 100px;
+    border-radius: 20px;
+    border: 3px solid #959595;
+    color: #383838;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.hora {
+    height: 30px;
+    border-radius: 20px;
+    border: 3px solid #959595;
+    display: flex;
+    align-items: center;
+    color: #383838;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 130px;
+}
+
+.user div {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.nome {
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #959595;
+    display: flex;
+    align-items: center;
+    color: #383838;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.status:hover {
+    width: 35px;
+    height: 35px;
+    transition: ease-in 0.3s;
+}
+
+.grafico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+canvas{
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.email {
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #959595;
+    display: flex;
+    align-items: center;
+    color: #383838;
+    padding: 5px;
+    font-weight: bold;
+}

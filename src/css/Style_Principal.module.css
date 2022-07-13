@@ -1,0 +1,890 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #212123;
+    --blue: #2884B2;
+    --pink: #E12E6C;
+    --red: #FF0000;
+    --green: #56AF5A;
+
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header a:hover {
+    font-size: 25px;
+}
+
+.principal {
+    width: 90%;
+    height: 800px;
+    border-radius: 20px;
+    background-color: #EEF2F5;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.div_reservas {
+    width: 80%;
+    height: 100%;
+}
+
+.logo_A {
+    position: relative;
+    width: 170px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.justificativa {
+    display: none;
+}
+
+.menu {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.help {
+    color: white;
+    font-size: 22px;
+    border: 3px solid red;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 80%;
+}
+
+.cadastro {
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 80%;
+}
+
+.alterar {
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 80%;
+}
+
+.log_off {
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 80%;
+}
+
+.calendario {
+    position: relative;
+    top: 20px;
+    left: 25px;
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title_calen_base {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.title_calendario {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+/* LISTA USER */
+
+.users_lista {
+    position: relative;
+    left: 25px;
+    bottom: -60px;
+    width: 100%;
+    height: 48%;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+
+.btn_NC {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2A92CF;
+}
+
+.title_User {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    font-size: 18px;
+}
+
+.title_NC {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.base_user {
+    overflow: hidden;
+    position: relative;
+    top: 60px;
+    padding: 10px;
+    height: 100%;
+}
+
+.base_user table{
+    width: 100%;
+}
+
+.listaUsers {
+    position: relative;
+    top: 8%;
+    width: 90%;
+    height: 75%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.listaUsers tr{
+    height: 30px;
+}
+
+.header_user {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.title_menu {
+    margin: 0 4.5%;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.linha_menu {
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: #F5F6F8;
+}
+
+.users_lista h1 {
+    margin-left: 20px;
+}
+
+.users_head{
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+}
+
+.users_head tr{
+    width: 100%;
+}
+
+.users_head th{
+    height: 30px;
+    width: 50%;
+    text-align: start;
+}
+
+.listaUsers {
+    font-size: 15px;
+}
+
+.body tr {
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+.title_RS {
+    font-size: 14px;
+    color: #000;
+}
+
+/* HEADER LIST */
+
+.header_lista {
+    position: relative;
+    width: 100%;
+    height: 155px;
+    display: flex;
+    /*  justify-content: center; */
+    align-items: center;
+    background-color: transparent;
+}
+
+/* iformações de qnd */
+.qnd_header {
+    position: relative;
+    margin-left: 50px;
+    width: 270px;
+    height: 120px;
+    border-radius: 9px;
+    background: #fff;
+}
+
+.base_icons {
+    position: relative;
+    top: -10px;
+    left: 20px;
+    width: 55px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+
+}
+
+.name {
+    font-size: 18px;
+    color: var(--black);
+}
+
+.qnd_title {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+
+}
+
+.qnd_number {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.base_linha {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.linha {
+    background-color: var(--black);
+    width: 90%;
+    height: 2px;
+}
+
+.sub_title {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+
+.sub_name {
+    font-size: 16px;
+    color: var(--black);
+}
+
+.base_color_qnd1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--black);
+    transition: 0.5s;
+}
+
+.base_color_qnd1:hover {
+    font-size: 25px;
+    transform: rotate(45deg);
+    color: #fff;
+}
+
+.base_color_qnd2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--blue);
+    transition: 0.5s;
+}
+
+.base_color_qnd2:hover {
+    font-size: 25px;
+    transform: rotate(45deg);
+    color: #fff;
+}
+
+.base_color_qnd3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--green);
+    transition: 0.5s;
+}
+
+.base_color_qnd3:hover {
+    font-size: 25px;
+    transform: rotate(45deg);
+    color: #fff;
+}
+
+/* BTNS */
+.btn_header {
+    position: relative;
+    width: 200px;
+    margin: 200px auto;
+    height: 80px;
+    border-radius: 9px;
+    background: #fff;
+    display: -webkit-inline-box;
+    -webkit-box-align: center;
+}
+
+.btns_header {
+    position: relative;
+    left: -15%;
+    width: 55px;
+    height: 57px;
+    border-radius: 8px;
+    margin: 0 15px 0 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.base_icons_btn {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    /* background-color: red; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base_color_btn1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--pink);
+    transition: 0.5s;
+}
+
+.base_color_btn1:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    color: #fff;
+}
+
+.base_color_btn2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--blue);
+    transition: 0.5s;
+}
+
+.base_color_btn2:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    color: #fff;
+}
+
+.base_color_btn3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--red);
+    transition: 0.5s;
+}
+
+.base_color_btn3:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    color: #fff;
+}
+
+
+/* LISTA */
+
+.div_title {
+    position: relative;
+    margin-left: 1%;
+    top: 10px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.div_title a {
+    font-family: "Cosi Azure";
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fefefe00;
+    -webkit-text-stroke: 1px #000;
+    margin-right: 100%;
+}
+
+.div_title span::before {
+    width: 0;
+    color: #000;
+    overflow: hidden;
+    position: absolute;
+    content: attr(data-text);
+    transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
+}
+
+.div_title span:hover::before {
+    width: 100%;
+}
+
+.span {
+    width: 250px;
+    position: relative;
+    display: block;
+    margin: 70px;
+
+}
+
+.title_pes {
+    position: relative;
+    font-size: 40px;
+}
+
+.reservas {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela_mes {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+}
+
+.base_lista {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+    margin: 2% 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+
+}
+
+.postion_text_reserva {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.title_reserva {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.div_pesquisa {
+    position: absolute;
+    top: 0;
+    height: 86px;
+    width: 30%;
+    right: 5%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.base_pes {
+    position: relative;
+    width: 80%;
+    height: 45px;
+    border-radius: 50px;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa_reservas {
+    position: relative;
+    left: 10%;
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.pesquisa_reservas::placeholder {
+    font-size: 20px;
+    color: var(--white);
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+.lupa {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    left: 5%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--white);
+    transition: ease 0.2s;
+}
+
+.lupa:hover {
+    font-size: 25px;
+    transition: ease 0.2s;
+}
+
+.pesquisa_reservas:-webkit-autofill,
+.pesquisa_reservas:-webkit-autofill:hover,
+.pesquisa_reservas:-webkit-autofill:focus {
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 0 0px 1000px rgb(35, 35, 35) inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.div_lista{
+    position: relative;
+    width: 90%;
+    height: 75%;
+    margin-top: 30px;
+}
+
+.fecharPesquisa{
+    cursor: pointer;
+    visibility: hidden;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.tabela_mes thead {
+    height: 50px;
+    background-color: #F5F6F8;
+}
+
+.tabela_mes tr {
+    height: 50px;
+}
+
+
+.num {
+    text-align: end;
+    padding-right: 10px;
+    color: var(--black);
+    font-size: 30px;
+    font-weight: 400;
+    column-span: 4;
+}
+
+.mes {
+    text-align: start;
+    padding-left: 10px;
+    color: var(--black);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.tabela_mes td {
+    box-sizing: border-box;
+    max-width: 5px;
+    overflow-x: hidden;
+    width: 18%;
+    background-color: #fff;
+    border-bottom: 2px solid #F5F6F8;
+    color: var(--black);
+    font-size: 15px;
+}
+
+td button {
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    color: var(--black);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+td button:hover {
+    font-size: 25px;
+}
+
+*::-webkit-scrollbar {
+    background-color: white;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    .principal {
+        width: 90%;
+    }
+
+    .pesquisa_reservas::placeholder {
+        font-size: 18px;
+    }
+
+    .base_pes {
+        position: relative;
+        width: 100%;
+    }
+
+    .div_pesquisa {
+        height: 64px;
+    }
+
+    .pesquisa_reservas {
+        left: 10%;
+        width: 60%;
+    }
+
+    .base_lista {
+        height: 80%;
+    }
+
+    .calendario {
+        height: 25%;
+    }
+
+    .users_lista {
+        height: 53%;
+    }
+
+    .title_User {
+        left: 10px;
+        font-size: 16px;
+    }
+
+    .qnd_title{
+        top: 0px;
+    }
+
+    .btn_NC {
+        right: 10px;
+    }
+
+    .calendar {
+        transform: scale(0.5);
+    }
+
+    .header_lista {
+        left: 5%;
+        width: 90%;
+
+    }
+
+    .qnd_header {
+        width: 185px;
+        left: -1%;
+        margin-left: 10px;
+
+    }
+
+    .title {
+        position: relative;
+        top: -5%;
+        left: 20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 25px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .btn_header {
+        right: -2%;
+    }
+}
